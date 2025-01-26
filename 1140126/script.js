@@ -18,10 +18,10 @@ function toggleTheme() {
 }
 
 //切換圖片
-const images = ["1140126/images/test1.jpg", 
-    "1140126/images/test2.jpg", 
-    "1140126/images/test3.jpg", 
-    "1140126/images/test4.jpg"];
+const images = ["images/test1.jpg", 
+    "images/test2.jpg", 
+    "images/test3.jpg", 
+    "images/test4.jpg"];
 let currentIndex = 0;
 
 //下一張
