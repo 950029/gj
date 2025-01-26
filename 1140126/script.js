@@ -18,10 +18,10 @@ function toggleTheme() {
 }
 
 //切換圖片
-const images = ["C:/Users/tsh20/Desktop/1140126/images/test1.jpg", 
-    "C:/Users/tsh20/Desktop/1140126/images/test2.jpg", 
-    "C:/Users/tsh20/Desktop/1140126/images/test3.jpg", 
-    "C:/Users/tsh20/Desktop/1140126/images/test4.jpg"];
+const images = ["1140126/images/test1.jpg", 
+    "1140126/images/test2.jpg", 
+    "1140126/images/test3.jpg", 
+    "1140126/images/test4.jpg"];
 let currentIndex = 0;
 
 //下一張
