@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>新北市私立格致高級中學</title>
+        <link rel="icon" href="images/icon.gif" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="top">
+            <div class="top-text" id="first-top"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/110/">認識格致</a></div>
+            <div class="top-text">行政組織
+                <div class="offical" id="officaltop"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/8/">學務處</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/22/">教務處</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/81/">總務處</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/64/">圖書館</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/80/">電腦中心</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/103/">輔導中心</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/10/">主計室</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/102/">人事室</a></div>
+                <div class="offical"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/115/?cid=6071">家長會</a></div>
+            </div>
+            <div class="top-text"><a href="2.student.html">學生專區</a></div>
+            <div class="top-text" id="last-top"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/44/">行事曆</a></div>
+        </div>
+
+        <button id="back-to-top">↑</button>
+        <button class="theme-toggle" onclick="toggleTheme()">Night</button>
+         
+        <div class="content">
+
+            <div class="image-container">
+                <img id="main-image" src="images/test1.jpg"></img>
+                <div class="button-container">
+                    <button id="previous-button" onclick="previousImage()">&lt;</button>
+                    <button id="next-button" onclick="nextImage()">&gt;</button>
+                </div>
+            </div>
+
+            <div class="news-container">
+                <h1>最新消息</h1>
+                <div id="table-container">
+                    <table id="json-table">
+                        <thead>
+                            <tr>
+                                <th id="tfirst">#</th>
+                                <th>發布日期</th>
+                                <th>消息內容</th>
+                                <th>發布單位</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- JSON 數據將動態插入到這裡 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div>
+                    <a href="https://www.facebook.com/people/%E6%A0%BC%E8%87%B4%E4%B8%AD%E5%AD%B8-Gj%E5%BF%AB%E5%A0%B1/100064226611379/?ref=embed_page#">
+                        <img class="footer-image" src="images/fb-icon.png" height="60px" width="60px"></img>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://maps.app.goo.gl/1111xJQ2K6DAJV2f6">
+                        <img class="footer-image" src="images/map-icon.png" height="60px" width="60px"></img>
+                    </a>
+                </div>
+            </div>
+            <p>241 新北市三重區大智街260號(No.260,Ta-Chih Street, San-chuang District, New Taipei City, R.O.C. 241)</p>
+            <p>TEL:02-29855892｜FAX:02-29831652</p>
+            <p>@ 2024, 私立格致高中. All right reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

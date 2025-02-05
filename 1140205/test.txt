@@ -1,0 +1,15 @@
+dark blue
+
+#0D47A1
+
+blue
+
+#1976D2
+
+bright
+
+#E3F2FD
+
+dark
+
+#111927
