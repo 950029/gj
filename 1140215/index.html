@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>新北市私立格致高級中學</title>
+        <link rel="icon" href="images/icon.gif" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="index.html"><img id="gj-text" src="images/gj-img.png"></img></a>
+        <a href="index.html"><img id="gj-text-small" src="images/gj-img-small.png"></img></a>
+
+        <div class="top">
+            <div class="top-text" id="first-top"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/110/">認識格致</a></div>
+            <div class="top-text"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/113/">行政組織</a>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/8/">學務處</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/22/">教務處</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/81/">總務處</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/64/">圖書館</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/80/">電腦中心</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/103/">輔導中心</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/10/">主計室</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/102/">人事室</a></div>
+                <div class="top-text-2"><a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/115/?cid=6071">家長會</a></div>
+            </div>
+            <div class="top-text"><a href="student.html">學生專區</a></div>
+        </div>
+
+        <button id="back-to-top">↑</button>
+        <button class="theme-toggle" onclick="toggleTheme()">Night</button>
+         
+        <div class="content">
+            <div class="image-container">
+                <img id="main-image" src="images/test1.jpg"></img>
+                <div class="underimg">
+                    <div class="text-container">
+                        <h1>請輸入標題</h1>
+                        <p>請輸入文本</p>
+                    </div>
+                    <div class="button-container">
+                        <div class="switchimg">
+                            <button id="b1" onclick="Image1()">1</button>
+                            <button id="b2" onclick="Image2()">2</button>
+                            <button id="b3" onclick="Image3()">3</button>
+                            <button id="b4" onclick="Image4()">4</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h1>最新消息</h1>
+                <div class="table-wrapper">
+                    <div class="table-container">
+                        <table id="json-table">
+                            <thead>
+                                <tr>
+                                    <th id="tfirst">#</th>
+                                    <th>發布日期</th>
+                                    <th>消息內容</th>
+                                    <th>發布單位</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- JSON 數據將動態插入到這裡 -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <h1>行事曆</h1>
+                <div class="calendar-wrapper">
+                    <div class="calendar-container">
+                        <iframe src="https://calendar.google.com/calendar/embed?src=c_7108a89747f53d459805d1cc5b086b3cb88e1cd58946c5b7b104d64968568d0a%40group.calendar.google.com&ctz=Asia%2FTaipei" id="calendar" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div>
+                    <a href="http://www.gjsh.ntpc.edu.tw/ischool/publish_page/79/">
+                        <img class="footer-image" src="images/email-icon.png" height="60px" width="60px"></img>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/people/%E6%A0%BC%E8%87%B4%E4%B8%AD%E5%AD%B8-Gj%E5%BF%AB%E5%A0%B1/100064226611379/?ref=embed_page#">
+                        <img class="footer-image" src="images/fb-icon.png" height="60px" width="60px"></img>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://maps.app.goo.gl/1111xJQ2K6DAJV2f6">
+                        <img class="footer-image" src="images/map-icon.png" height="60px" width="60px"></img>
+                    </a>
+                </div>
+            </div>
+            <p>241 新北市三重區大智街260號(No.260,Ta-Chih Street, San-chuang District, New Taipei City, R.O.C. 241)</p>
+            <p>TEL:02-29855892｜FAX:02-29831652</p>
+            <p>@ 2024, 私立格致高中. All right reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
